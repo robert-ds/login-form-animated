@@ -11,3 +11,26 @@ html, body {
 a, button {
 	cursor: pointer;
 }
+
+body {
+	display: grid;
+	place-items: center;
+	margin: 0;
+	padding: 0 24px;
+	background-image: url("img.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	animation: pan 6s infinite alternate linear; 
+}
+
+@keygrames pan {
+	100% {
+		background-position: 15% 50%;
+	}
+}
+
+@media only screen (max >= 500px) {
+	body {
+		padding: 0;
+	}
+}
