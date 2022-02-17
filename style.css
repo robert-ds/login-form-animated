@@ -75,7 +75,7 @@ body {
 	font-weight: 600;
 }
 
-@keygrames pan {
+@keyframes pan {
 	100% {
 		background-position: 15% 50%;
 	}
